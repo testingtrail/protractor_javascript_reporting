@@ -2,7 +2,7 @@
 2. Make sure npm is in path environment variables in system Windows
 3. Make sure you installed protractor
     - npm install -g protractor
-4. Install webdriver manager
+4. Install webdriver manager (if not empty project go to step 6)
     - npm i webdriver-manager@latest
     - Run this command: webdriver-manager update to create browser in global protractor installation
 5. Run 'protractor where' and copy conf.js in conf folder

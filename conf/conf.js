@@ -8,6 +8,7 @@ var reporter = new HtmlScreenshotReporter({
   filename: 'my-report.html'
 });
 
+
 exports.config = {
 
   //to avoid starting the selenium server separately
@@ -40,6 +41,13 @@ exports.config = {
   // Assign the test reporter to each running instance
   onPrepare: function() {
     jasmine.getEnv().addReporter(reporter);
+
+    //create the allure reporting
+    var AllureReporter = require('jasmine-allure-reporter');
+    jasmine.getEnv().addReporter(new AllureReporter({
+      resultsDir: 'allure-results'
+    }));
+
   },
 
   // Close the report after all tests finish
