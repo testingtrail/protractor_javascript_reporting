@@ -12,3 +12,7 @@
     - C:\Users\<user>\AppData\Roaming\npm\node_modules\protractor\example
 7. Run it in cmd
     - protractor conf.js (remember to point to the file you want to run)
+8. This project is using three reporters
+    - protractor jasmine screenshot reporter: appearing in target folder. To disable it comment the blocks in conf.js
+    - Allure Reporting: appearing in allure-results folder (to run it hit in command line: allure serve allure-results, you have to download allure command line firts). To disable it comment the blocks in conf.js
+    - Protractor html reporter: Appearing in folder 'screenshots' and files in the root folder. To disable it, comment the blocks in js.
