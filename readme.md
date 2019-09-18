@@ -7,7 +7,7 @@
     - Run this command: webdriver-manager update to create browser in global protractor installation
 5. Run 'protractor where' and copy conf.js in conf folder
     - C:\Users\<user>\AppData\Roaming\npm\node_modules\protractor\example
-    - if you have ‘directConnect: true’ yo DO NOT need to run webdriver-manager start
+    - if you have ‘directConnect: true’ you DO NOT need to run webdriver-manager start
 6. Run 'protractor where' and copy example_spec.js in tests folder or create your own as the one calles 'calculator.js'
     - C:\Users\<user>\AppData\Roaming\npm\node_modules\protractor\example
 7. Run it in cmd

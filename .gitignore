@@ -1,0 +1,4 @@
+screenshots/
+allure-results/
+node_modules/
+target/
